@@ -28,10 +28,25 @@ main:
     push rax
     call print
     pop rax
-    mov rax, 0
+    mov rax, 0x0
     return
 
 section ".data" writeable
 
 hello: du "Hello World", 0xD, 0xA, 0x0
 ```
+
+
+## GOALS
+
+- [#] function definitions
+- [-] function calls
+- [-] function arguments
+- [-] extern functions
+- [#] push
+- [#] pop
+- [#] load rax
+- [#] ret
+- [-] constants
+- [-] if statements
+- [-] block if statements
